@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="div">
+    </div>
+
+    <script>
+
+        var arr, x = " ";
+
+        arr = {
+            "name": "John",
+            "age": 30,
+            "cars": ["Ford", "BMW", "Fiat"]
+        };
+        for (let i = 0; i < arr.cars.length; i++) {
+
+            x += arr.cars[i] + "<br>";
+
+        }
+
+        document.getElementById("div").innerHTML = x;
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

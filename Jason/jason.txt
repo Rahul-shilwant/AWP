@@ -1,0 +1,50 @@
+ 1 . JSON: JavaScript Object Notation.
+
+ 2  . jason is a text which contain JavaScript object Notation
+        text is contain data in the form of javascript object
+
+3 . data exchanging bet server to client in the form of txt
+
+4 .  when we get json from server its converted into javascript object  
+
+
+
+sending data TO server using stringify() function
+
+
+json = {"name":"rahul"}
+
+javascript = {name : "rahul"}
+
+
+In JSON, values must be one of the following data types:
+
+a string
+a number
+an object (JSON object)
+an array
+a boolean
+null
+
+
+javascript all of the above +
+a function
+a date
+undefined
+
+
+JSON parse ----
+    when the data comes from server its comes in the format of string 
+    using JSON.parse() data converted into javascript object
+
+Ex
+var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
+
+when we req json from server using ajax request when we get responce from server is written into jason 
+format then u can parse this string into javascript object
+
+
+
+
+
+
